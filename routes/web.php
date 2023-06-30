@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/sample/{var}', 'MyController@work_get');
 
 Route::post('/sample/', 'MyController@work_post');
+
+Route::post('users/', 'MyController@users_data_post');
